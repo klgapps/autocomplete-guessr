@@ -4,9 +4,22 @@
     <title>Autocomplete Guessr</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
       html {
         background: url('img.png') no-repeat center center fixed;
       }
+
+
+      @media only screen and (max-width: 500px) {
+        html {
+          background: url('img.png') no-repeat 50% 35% fixed;
+        }
+      }
+
       a,img {
         width: 300px;
         position: fixed;
